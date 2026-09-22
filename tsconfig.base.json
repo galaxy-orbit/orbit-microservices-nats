@@ -1,0 +1,226 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "types": [
+      "bun-types"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@galaxy-stack/orbit-core": [
+        "packages/core/src"
+      ],
+      "@galaxy-stack/orbit-core/*": [
+        "packages/core/src/*"
+      ],
+      "@galaxy-stack/orbit-common": [
+        "packages/common/src"
+      ],
+      "@galaxy-stack/orbit-common/*": [
+        "packages/common/src/*"
+      ],
+      "@galaxy-stack/orbit-platform-bun": [
+        "packages/platform-bun/src"
+      ],
+      "@galaxy-stack/orbit-platform-bun/*": [
+        "packages/platform-bun/src/*"
+      ],
+      "orbit": [
+        "packages/cli/src"
+      ],
+      "orbit/*": [
+        "packages/cli/src/*"
+      ],
+      "@galaxy-stack/orbit-testing": [
+        "packages/testing/src"
+      ],
+      "@galaxy-stack/orbit-testing/*": [
+        "packages/testing/src/*"
+      ],
+      "@galaxy-stack/orbit-microservices-grpc": [
+        "packages/microservices-grpc/src"
+      ],
+      "@galaxy-stack/orbit-microservices-grpc/*": [
+        "packages/microservices-grpc/src/*"
+      ],
+      "@galaxy-stack/orbit-microservices": [
+        "packages/microservices/src"
+      ],
+      "@galaxy-stack/orbit-microservices/*": [
+        "packages/microservices/src/*"
+      ],
+      "@galaxy-stack/orbit-database": [
+        "packages/database/src"
+      ],
+      "@galaxy-stack/orbit-database/*": [
+        "packages/database/src/*"
+      ],
+      "@galaxy-stack/orbit-schedule": [
+        "packages/schedule/src"
+      ],
+      "@galaxy-stack/orbit-schedule/*": [
+        "packages/schedule/src/*"
+      ],
+      "@galaxy-stack/orbit-logger": [
+        "packages/logger/src"
+      ],
+      "@galaxy-stack/orbit-logger/*": [
+        "packages/logger/src/*"
+      ],
+      "@galaxy-stack/orbit-cache": [
+        "packages/cache/src"
+      ],
+      "@galaxy-stack/orbit-cache/*": [
+        "packages/cache/src/*"
+      ],
+      "@galaxy-stack/orbit-microservices-tcp": [
+        "packages/microservices-tcp/src"
+      ],
+      "@galaxy-stack/orbit-microservices-tcp/*": [
+        "packages/microservices-tcp/src/*"
+      ],
+      "@galaxy-stack/orbit-throttler": [
+        "packages/throttler/src"
+      ],
+      "@galaxy-stack/orbit-throttler/*": [
+        "packages/throttler/src/*"
+      ],
+      "@galaxy-stack/orbit-swagger": [
+        "packages/swagger/src"
+      ],
+      "@galaxy-stack/orbit-swagger/*": [
+        "packages/swagger/src/*"
+      ],
+      "@galaxy-stack/orbit-config": [
+        "packages/config/src"
+      ],
+      "@galaxy-stack/orbit-config/*": [
+        "packages/config/src/*"
+      ],
+      "@galaxy-stack/orbit-security": [
+        "packages/security/src"
+      ],
+      "@galaxy-stack/orbit-security/*": [
+        "packages/security/src/*"
+      ],
+      "@galaxy-stack/orbit-auth": [
+        "packages/auth/src"
+      ],
+      "@galaxy-stack/orbit-auth/*": [
+        "packages/auth/src/*"
+      ],
+      "@galaxy-stack/orbit-microservices-redis": [
+        "packages/microservices-redis/src"
+      ],
+      "@galaxy-stack/orbit-microservices-redis/*": [
+        "packages/microservices-redis/src/*"
+      ],
+      "@galaxy-stack/orbit-terminus": [
+        "packages/terminus/src"
+      ],
+      "@galaxy-stack/orbit-terminus/*": [
+        "packages/terminus/src/*"
+      ],
+      "@galaxy-stack/orbit-runtime": [
+        "packages/runtime/src"
+      ],
+      "@galaxy-stack/orbit-runtime/*": [
+        "packages/runtime/src/*"
+      ],
+      "@galaxy-stack/orbit-websockets": [
+        "packages/websockets/src"
+      ],
+      "@galaxy-stack/orbit-websockets/*": [
+        "packages/websockets/src/*"
+      ],
+      "@galaxy-stack/orbit-docs": [
+        "packages/docs/src"
+      ],
+      "@galaxy-stack/orbit-docs/*": [
+        "packages/docs/src/*"
+      ],
+      "@galaxy-stack/orbit-cli": [
+        "packages/cli/src"
+      ],
+      "@galaxy-stack/orbit-cli/*": [
+        "packages/cli/src/*"
+      ],
+      "@galaxy-stack/orbit-observability": [
+        "packages/observability/src"
+      ],
+      "@galaxy-stack/orbit-observability/*": [
+        "packages/observability/src/*"
+      ],
+      "@galaxy-stack/orbit-vscode-snippets": [
+        "packages/vscode-snippets/src"
+      ],
+      "@galaxy-stack/orbit-vscode-snippets/*": [
+        "packages/vscode-snippets/src/*"
+      ],
+      "@galaxy-stack/orbit-devtools": [
+        "packages/devtools/src"
+      ],
+      "@galaxy-stack/orbit-devtools/*": [
+        "packages/devtools/src/*"
+      ],
+      "@galaxy-stack/orbit-graphql": [
+        "packages/graphql/src"
+      ],
+      "@galaxy-stack/orbit-graphql/*": [
+        "packages/graphql/src/*"
+      ],
+      "@galaxy-stack/orbit-microservices-nats": [
+        "packages/microservices-nats/src"
+      ],
+      "@galaxy-stack/orbit-microservices-nats/*": [
+        "packages/microservices-nats/src/*"
+      ],
+      "@galaxy-stack/orbit-telemetry": [
+        "packages/telemetry/src"
+      ],
+      "@galaxy-stack/orbit-telemetry/*": [
+        "packages/telemetry/src/*"
+      ],
+      "@galaxy-stack/orbit-microservices-rmq": [
+        "packages/microservices-rmq/src"
+      ],
+      "@galaxy-stack/orbit-microservices-rmq/*": [
+        "packages/microservices-rmq/src/*"
+      ],
+      "@galaxy-stack/orbit-graphql-federation": [
+        "packages/graphql-federation/src"
+      ],
+      "@galaxy-stack/orbit-graphql-federation/*": [
+        "packages/graphql-federation/src/*"
+      ],
+      "@galaxy-stack/orbit-microservices-kafka": [
+        "packages/microservices-kafka/src"
+      ],
+      "@galaxy-stack/orbit-microservices-kafka/*": [
+        "packages/microservices-kafka/src/*"
+      ],
+      "@galaxy-stack/orbit-validation": [
+        "packages/validation/src"
+      ],
+      "@galaxy-stack/orbit-validation/*": [
+        "packages/validation/src/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "**/dist/**"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@galaxy-stack/orbit-microservices-nats",
+  "version": "0.1.6",
+  "description": "NATS transport for Orbit microservices",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist --target bun --packages external",
+    "dev": "bun --watch src/index.ts",
+    "changeset": "changeset"
+  },
+  "dependencies": {
+    "@galaxy-stack/orbit-core": "^0.1.4",
+    "@galaxy-stack/orbit-microservices": "^0.1.2"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0",
+    "reflect-metadata": "^0.2.2",
+    "@changesets/cli": "^2.27.0"
+  },
+  "peerDependencies": {
+    "reflect-metadata": "^0.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galaxy-orbit/orbit-microservices-nats.git"
+  },
+  "bugs": {
+    "url": "https://github.com/galaxy-orbit/orbit/issues"
+  },
+  "homepage": "https://galaxy-orbit-framework.vercel.app"
+}
