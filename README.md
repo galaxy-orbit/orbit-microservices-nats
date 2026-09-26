@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/@galaxy-stack/orbit-microservices-nats.svg)](https://www.npmjs.com/package/@galaxy-stack/orbit-microservices-nats)
 [![docs](https://img.shields.io/badge/docs-galaxy--orbit--framework.vercel.app-blue)](https://galaxy-orbit-framework.vercel.app)
 
-Part of the [Orbit framework](https://github.com/galaxy-orbit/orbit) — a NestJS-style backend framework for [Bun](https://bun.sh).
+Part of the [Orbit framework](https://github.com/galaxy-orbit/packages) — a NestJS-style backend framework for [Bun](https://bun.sh).
 
 ## Installation
 

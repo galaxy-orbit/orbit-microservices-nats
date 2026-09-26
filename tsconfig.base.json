@@ -37,12 +37,6 @@
       "@galaxy-stack/orbit-platform-bun/*": [
         "packages/platform-bun/src/*"
       ],
-      "orbit": [
-        "packages/cli/src"
-      ],
-      "orbit/*": [
-        "packages/cli/src/*"
-      ],
       "@galaxy-stack/orbit-testing": [
         "packages/testing/src"
       ],
@@ -150,12 +144,6 @@
       ],
       "@galaxy-stack/orbit-docs/*": [
         "packages/docs/src/*"
-      ],
-      "@galaxy-stack/orbit-cli": [
-        "packages/cli/src"
-      ],
-      "@galaxy-stack/orbit-cli/*": [
-        "packages/cli/src/*"
       ],
       "@galaxy-stack/orbit-observability": [
         "packages/observability/src"

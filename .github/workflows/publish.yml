@@ -21,6 +21,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: bun install
       - run: bun run build
+      - run: bun run build:types
       - run: bunx changeset version || echo "no pending changesets"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
